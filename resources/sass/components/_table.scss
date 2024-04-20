@@ -1,0 +1,22 @@
+.my-table {
+    @apply text-sm text-slate-600;
+
+    thead {
+        @apply bg-blue-100;
+        tr {
+            th {
+                @apply px-2 text-left whitespace-nowrap;
+            }
+        }
+    }
+
+    tbody {
+        @apply border-t-2 border-b-2 border-slate-300/75 divide-y divide-slate-200;
+        tr {
+            @apply odd:bg-white even:bg-blue-50/75 hover:bg-blue-100/75;
+            td {
+                @apply px-2 py-1 text-left whitespace-nowrap;
+            }
+        }
+    }
+}

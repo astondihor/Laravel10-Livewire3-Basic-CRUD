@@ -1,0 +1,27 @@
+.alert {
+    @apply relative border border-slate-300/75 bg-white pl-8 pr-3 py-4 mb-4 rounded-lg flex items-center justify-between;
+
+    .close {
+        @apply p-1 hover:bg-slate-400/25 rounded-full opacity-35 hover:opacity-100;
+    }
+}
+
+.alert-primary {
+    @apply border-blue-300/50 bg-blue-200/50 text-blue-700;
+}
+
+.alert-success {
+    @apply border-green-300/50 bg-green-200/50 text-green-700;
+}
+
+.alert-info {
+    @apply border-sky-300/50 bg-sky-200/50 text-sky-700;
+}
+
+.alert-warning {
+    @apply border-amber-300/50 bg-amber-200/50 text-amber-700;
+}
+
+.alert-danger {
+    @apply border-red-300/50 bg-red-200/50 text-red-700;
+}

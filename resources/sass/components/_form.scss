@@ -1,0 +1,17 @@
+.form-input {
+    @apply border-slate-300/75 rounded-lg placeholder:text-slate-400;
+}
+
+
+
+
+
+
+
+
+
+
+
+.is-invalid {
+    @apply border-red-500;
+}

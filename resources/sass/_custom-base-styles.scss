@@ -1,0 +1,7 @@
+.page-wrapper {
+    @apply mx-auto max-w-7xl px-4 sm:px-5 md:px-6 lg:px-7 xl:px-8;
+}
+
+.error-text {
+    @apply text-red-500 italic text-sm;
+}

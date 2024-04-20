@@ -1,0 +1,7 @@
+.card {
+    @apply bg-white dark:bg-slate-950 rounded-xl shadow;
+
+    .card-body {
+        @apply px-8 py-6;
+    }
+}
